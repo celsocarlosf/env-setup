@@ -11,7 +11,7 @@ sudo apt install git
 
 ### php + apache
 ```
-sudo apt install php7.4 php7.4-mbstring php7.4-dom php7.4-soap php7.4-zip apache2 -y
+sudo apt install php7.4 php7.4-mbstring php7.4-dom php7.4-soap php7.4-zip apache2 mysql-server -y
 ```
 
 Alterar propriedade da pasta www
@@ -33,6 +33,27 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 php -r "unlink('composer-setup.php');"
 ```
 
+### mysql
+```
+sudo apt install mysql-server libapache2-mod-php php7.4-mysql phpmyadmin -y
+```
+
+```
+sudo mysql
+```
+```
+CREATE USER 'USERNAME' IDENTIFIED BY 'PASSWORD';
+```
+```
+GRANT ALL PRIVILEGES ON * . * TO 'USERNAME';
+```
+```
+FLUSH PRIVILEGES;    
+```
+
+
+
+
 
 ### node 
 ```
@@ -48,5 +69,9 @@ nvm install --lts
 ```
 
 
-###
+### vue
+```
+npm install -g @vue/cli
+```
+
 
