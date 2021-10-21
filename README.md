@@ -74,4 +74,7 @@ nvm install --lts
 npm install -g @vue/cli
 ```
 
+### docker
+Siga o tutorial: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt
+
 
