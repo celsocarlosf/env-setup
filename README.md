@@ -11,7 +11,7 @@ sudo apt install git
 
 ### php + apache
 ```
-sudo apt install php7.4 php7.4-mbstring php7.4-dom php7.4-soap php7.4-zip apache2 mysql-server -y
+sudo apt install php7.4 php7.4-mbstring php7.4-dom php7.4-soap php7.4-zip php7.4-curl apache2 mysql-server -y
 ```
 
 Alterar propriedade da pasta www
